@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/node:14.15.3
       
-    working_directory: ~/some
+    working_directory: ~/
 
     steps:
       - run: npm install
